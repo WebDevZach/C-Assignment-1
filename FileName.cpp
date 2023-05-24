@@ -22,7 +22,7 @@ void lookUpPrice(string[], double[], int);
 void sortPrices(string[], double[], int);
 void highestPrice(string[], double[], int);
 int showMenu();
-void swap(double[], int, int);
+
 
 const int SIZE = 30;
 
@@ -184,7 +184,12 @@ void sortPrices(string consoleNames[], double consolePrices[], int numOfConsoles
 
 			if (consolePrices[x] > consolePrices[y])
 			{
-				swap(consolePrices, x, y);
+				int temp = consolePrices[y];
+				consolePrices[y] = consolePrices[x];
+				consolePrices[x] = temp;
+				string tempy = consoleNames[y];
+				consoleNames[y] = consoleNames[x];
+				consoleNames[x] = tempy;
 			}
 
 
@@ -213,9 +218,3 @@ void highestPrice(string consoleNames[], double consolePrices[], int numOfConsol
 }
 
 
-void swap(double consolePrices[], int x, int y)
-{
-	int temp = consolePrices[y];
-	consolePrices[y] = consolePrices[x];
-	consolePrices[x] = temp;
-}
