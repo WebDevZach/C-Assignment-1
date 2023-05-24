@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+C:\Users\zachary.leyes.SCC-NT\source\repos\SortingAndSearchingArrays\SortingAndSearchingArrays\FileName.cpp(206,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  SortingAndSearchingArrays.vcxproj -> C:\Users\zachary.leyes.SCC-NT\source\repos\SortingAndSearchingArrays\x64\Debug\SortingAndSearchingArrays.exe
