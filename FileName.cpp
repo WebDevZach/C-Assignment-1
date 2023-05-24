@@ -145,7 +145,7 @@ void lookUpPrice(string consoleNames[], double consolePrices[], int numOfConsole
 			cout << endl << "The current price for " << consoleNames[x] << " is $" << consolePrices[x] << endl << endl;
 			found = 1;
 		}
-
+		cout << "meep" << endl;
 
 	}
 
